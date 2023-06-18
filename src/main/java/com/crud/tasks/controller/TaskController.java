@@ -15,9 +15,9 @@ public class TaskController {
         return new ArrayList<>();
     }
 
-    @GetMapping
-    public TaskDto getTask(Long taskId) {
-        return new TaskDto(1L, "test title", "test_content");
+    @GetMapping(value = "{taskId}")
+    public TaskDto getTask(@PathVariable Long taskId) {
+        return new TaskDto(1L, "test", "test");
     }
 
     @DeleteMapping
@@ -25,7 +25,7 @@ public class TaskController {
 
     }
 
-    @PutMapping
+    @PutMapping(value = "{taskId}")
     public TaskDto updateTask(TaskDto taskDto) {
         return new TaskDto(1L, "Edited test title", "Test content");
     }
