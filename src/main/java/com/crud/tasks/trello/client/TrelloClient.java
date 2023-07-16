@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
-
 import java.net.URI;
 import java.util.Arrays;
 import java.util.Collections;
@@ -36,6 +35,7 @@ public class TrelloClient {
                 .queryParam("token", trelloToken)
                 .queryParam("username", trelloApiUsername)
                 .queryParam("fields", "name,id")
+                .queryParam("lists", "all")
                 .build()
                 .encode()
                 .toUri();

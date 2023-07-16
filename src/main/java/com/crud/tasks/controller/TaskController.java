@@ -10,7 +10,6 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @CrossOrigin("*")
@@ -18,6 +17,7 @@ import java.util.List;
 @RequestMapping("/v1/tasks")
 @RequiredArgsConstructor
 public class TaskController {
+
 
     private final DbService service;
     private final TaskMapper taskMapper;
