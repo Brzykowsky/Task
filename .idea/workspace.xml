@@ -4,7 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1124473b-9e5a-4939-a4bb-abedd877126e" name="Changes" comment="" />
+    <list default="true" id="1124473b-9e5a-4939-a4bb-abedd877126e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/TaskApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/TaskApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/controller/GlobalHttpErrorHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/controller/GlobalHttpErrorHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/controller/TaskController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/controller/TaskController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/controller/TaskNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/controller/TrelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/controller/TrelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/domain/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/domain/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/domain/TaskDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/domain/TaskDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/domain/TrelloBoardDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/domain/TrelloBoardDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/domain/TrelloListDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/domain/TrelloListDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/mapper/TaskMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/mapper/TaskMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/repository/TaskRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/repository/TaskRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/service/DbService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/service/DbService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/trello/client/TrelloClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/trello/client/TrelloClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/crud/task/TaskApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crud/task/TaskApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,25 +77,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
-    "spring.configuration.checksum": "e8a0f65340bc9ed5664a8f3c87c6b5c9",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;e8a0f65340bc9ed5664a8f3c87c6b5c9&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="TaskApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Task.main" />
@@ -93,6 +120,8 @@
       <workItem from="1687980999715" duration="2079000" />
       <workItem from="1688020191396" duration="5689000" />
       <workItem from="1688675710389" duration="25677000" />
+      <workItem from="1689536637226" duration="7907000" />
+      <workItem from="1689769542277" duration="2925000" />
     </task>
     <servers />
   </component>
